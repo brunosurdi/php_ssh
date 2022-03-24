@@ -1,0 +1,21 @@
+{
+  "name": "projeto_packagist",
+  "description": "packagist",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ixcsoft",
+      "email": "prog74@ixcsoft.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BrunoSurdi\\SecureShell\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
